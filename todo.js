@@ -20,8 +20,8 @@ btn.addEventListener("click",function(){
 ul.addEventListener("click",function(event){
     if(event.target.nodeName=="BUTTON")
     {
-        let listel=event.target.parentElement;
-        listel.remove();
-        console.log("Deleted");
+        let l=event.target.parentElement;
+        l.remove();
+        console.log("deleted");
     }
 });
