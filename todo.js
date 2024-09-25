@@ -17,12 +17,11 @@ btn.addEventListener("click",function(){
    input.value="";
    
 });
-let delbtns=document.querySelectorAll(".delete");
-for(delbtn of delbtns)
-{
-    delbtn.addEventListener("click",function(){
-    let parent=this.parentElement;
-    console.log(parent);
-    parent.remove();
+ul.addEventListener("click",function(event){
+    if(event.target.nodeName=="BUTTON")
+    {
+        let listel=event.target.parentElement;
+        listel.remove();
+        console.log("Deleted");
+    }
 });
-}
