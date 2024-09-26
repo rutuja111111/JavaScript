@@ -3,4 +3,12 @@
 
 
 
+
+
+
 2.Genearte Random Color
+
+
+
+
+3.Simon Says Game
